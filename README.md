@@ -4,7 +4,6 @@ Smart Government Mobility Platform
 
 ## About
 
-
 ## Features
 
 - Driver management
