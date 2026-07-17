@@ -12,10 +12,9 @@ function App() {
       </header>
       <main>
         <div className="cards">
-          <DashboardCard title="Vehicles" value="12" />
-          <DashboardCard title="Drivers" value="8" />
-          <DashboardCard title="Missions" value="4" />
-          <DashboardCard title="Alerts" value="3" />
+          {info.map((item) => (
+            <DashboardCard key={item.id} info={item} />
+          ))}
         </div>
       </main>
     </div>
